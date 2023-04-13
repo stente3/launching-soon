@@ -1,10 +1,15 @@
 import React from 'react';
+/* Assets */
 import logo from '/logo.svg';
+/* Styles */
+import './index.scss';
+
 const Header = () => {
   return (
     <React.Fragment>
-      <h1>Hola mundo</h1>
-      <img src={logo} alt='logo' />
+      <figure className='header'>
+        <img className='header__image' src={logo} alt='logo' title='Ping' />
+      </figure>
     </React.Fragment>
   );
 };

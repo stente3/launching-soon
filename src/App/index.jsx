@@ -1,15 +1,18 @@
 import React from 'react';
+/* Components */
 import Header from '../components/Header';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
+/* Styles */
+import './index.scss';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <div className='appContainer'>
       <Header />
-      <Main />
-      <Footer />
-    </React.Fragment>
+      {/* <Main />
+      <Footer /> */}
+    </div>
   );
 };
 
